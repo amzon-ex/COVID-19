@@ -1,0 +1,482 @@
+
+
+*******************************************************************************
+Sun Mar 22 08:43:48 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u 3:4
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.3473316318e+11  0.00e+00 5.98e+05  1.000000e+00  1.000000e+00
+  74 1.3145847498e+09 -9.99e-01 5.98e+03  3.437388e-01  8.509065e-01
+
+After 74 iterations the fit converged.
+final sum of squares of residuals : 1.31458e+009
+rel. change during last iteration : -9.98734e-006
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4980.31
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.48035e+007
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.343739         +/- 1.02         (296.9%)
+b               = 0.850907         +/- 0.2456       (28.86%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.998  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:43:56 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u 3:4
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.3145847498e+09  0.00e+00 2.87e+04  3.437388e-01  8.509065e-01
+   1 1.3145776884e+09 -5.37e-01 2.87e+03  3.430307e-01  8.510869e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.31458e+009
+rel. change during last iteration : -5.37154e-006
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4980.3
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.48034e+007
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.343031         +/- 1.018        (296.9%)
+b               = 0.851087         +/- 0.2456       (28.86%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.998  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:46:15 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log($3)):(log($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.2648217684e+02  0.00e+00 3.50e+00  3.430307e-01  8.510869e-01
+   4 7.7842027435e+01 -1.12e-01 3.50e-03  3.989479e-01  1.208584e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 77.842
+rel. change during last iteration : -1.1206e-006
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.21191
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.46872
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.398948         +/- 0.1477       (37.01%)
+b               = 1.20858          +/- 0.1621       (13.41%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:47:03 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log($3)):(log($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 1.1222521643e+03  0.00e+00 6.63e+00  1.000000e+00  1.000000e+00
+   4 7.7782421922e+01 -3.05e-03 6.63e-04  7.705251e-01 -1.236075e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 77.7824
+rel. change during last iteration : -3.04582e-008
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.21144
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.46759
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.770525         +/- 0.1011       (13.13%)
+c               = -1.23608         +/- 0.9425       (76.25%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.985  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:47:28 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log($3)):(log($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 7.7782421922e+01  0.00e+00 5.15e+00  7.705251e-01 -1.236075e+00
+   1 7.7782421922e+01  0.00e+00 5.15e+01  7.705251e-01 -1.236075e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 77.7824
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.21144
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.46759
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.770525         +/- 0.1011       (13.13%)
+c               = -1.23608         +/- 0.9425       (76.25%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.985  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:49:03 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 4.1563312576e+01  0.00e+00 2.37e+00  7.705251e-01 -1.236075e+00
+   4 1.4670674596e+01 -8.88e-08 2.37e-04  7.705252e-01 -5.368207e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 14.6707
+rel. change during last iteration : -8.8838e-013
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.526123
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.276805
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = 0.770525         +/- 0.1011       (13.13%)
+c               = -0.536821        +/- 0.4093       (76.25%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.985  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:50:14 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = p*x**2 + q*x + r*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   p             q             r            
+   0 2.8582155160e+04  0.00e+00 1.06e+01  1.000000e+00  1.000000e+00  1.000000e+00
+   4 1.4695287024e+01 -3.03e-06 1.06e-03  3.184991e-02  2.525732e-01  2.525732e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 14.6953
+rel. change during last iteration : -3.03058e-011
+
+degrees of freedom    (FIT_NDF)                        : 52
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.531603
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.282602
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+p               = 0.0318499        +/- 0.02633      (82.66%)
+q               = 0.252573         +/- 8.181e+010   (3.239e+013%)
+r               = 0.252573         +/- 8.181e+010   (3.239e+013%)
+
+correlation matrix of the fit parameters:
+                p      q      r      
+p               1.000 
+q              -0.290  1.000 
+r               0.290 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:50:47 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = p*x**2 + q*x + r*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   p             q             r            
+   0 1.9501318176e+02  0.00e+00 1.77e+00  3.184991e-02  7.000000e-01  2.525732e-01
+   3 1.4695287024e+01 -1.17e-01 1.77e-03  3.184977e-02  3.041143e-01  2.010328e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 14.6953
+rel. change during last iteration : -1.17115e-006
+
+degrees of freedom    (FIT_NDF)                        : 52
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.531603
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.282602
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+p               = 0.0318498        +/- 0.02562      (80.43%)
+q               = 0.304114         +/- 7.653e+010   (2.516e+013%)
+r               = 0.201033         +/- 7.653e+010   (3.807e+013%)
+
+correlation matrix of the fit parameters:
+                p      q      r      
+p               1.000 
+q               0.180  1.000 
+r              -0.180 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:51:51 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = p*x**2 + q*x + r*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   p             q             r            
+   0 5.2602815040e+01  0.00e+00 2.23e+00  3.184977e-02  8.000000e-01 -5.000000e-01
+   3 1.4695287024e+01 -2.44e-02 2.23e-03  3.185001e-02  9.475207e-01 -4.423747e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 14.6953
+rel. change during last iteration : -2.43966e-007
+
+degrees of freedom    (FIT_NDF)                        : 52
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.531603
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.282602
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+p               = 0.03185          +/- 0.02538      (79.67%)
+q               = 0.947521         +/- 1.235e+011   (1.303e+013%)
+r               = -0.442375        +/- 1.235e+011   (2.791e+013%)
+
+correlation matrix of the fit parameters:
+                p      q      r      
+p               1.000 
+q               0.118  1.000 
+r              -0.118 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:53:53 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.4096744987e+01  0.00e+00 3.11e+00  3.989479e-01  1.208584e+00
+   4 1.4681916893e+01 -6.40e-04 3.11e-04  4.747545e-01  1.208583e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 14.6819
+rel. change during last iteration : -6.3987e-009
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.526324
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.277017
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.474755         +/- 0.1118       (23.55%)
+b               = 1.20858          +/- 0.1623       (13.43%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.993  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:54:05 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = a*x**b + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             d            
+   0 6.9723217721e+01  0.00e+00 3.07e+00  4.747545e-01  1.208583e+00  1.000000e+00
+  18 1.4670937098e+01 -8.75e-01 3.07e-02  7.482305e-01  1.012071e+00 -4.988781e-01
+
+After 18 iterations the fit converged.
+final sum of squares of residuals : 14.6709
+rel. change during last iteration : -8.75197e-006
+
+degrees of freedom    (FIT_NDF)                        : 52
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.531162
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.282133
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.74823          +/- 2.329        (311.3%)
+b               = 1.01207          +/- 1.305        (128.9%)
+d               = -0.498878        +/- 3.915        (784.8%)
+
+correlation matrix of the fit parameters:
+                a      b      d      
+a               1.000 
+b              -0.999  1.000 
+d              -0.998  0.995  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:54:12 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = a*x**b + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             d            
+   0 1.4670937098e+01  0.00e+00 3.16e+00  7.482305e-01  1.012071e+00 -4.988781e-01
+   1 1.4670934020e+01 -2.10e-02 3.16e-01  7.483665e-01  1.011999e+00 -4.989334e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 14.6709
+rel. change during last iteration : -2.09777e-007
+
+degrees of freedom    (FIT_NDF)                        : 52
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.531162
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.282133
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.748367         +/- 2.329        (311.3%)
+b               = 1.012            +/- 1.305        (128.9%)
+d               = -0.498933        +/- 3.916        (784.8%)
+
+correlation matrix of the fit parameters:
+                a      b      d      
+a               1.000 
+b              -0.999  1.000 
+d              -0.998  0.995  1.000 
+
+
+*******************************************************************************
+Sun Mar 22 08:56:04 2020
+
+
+FIT:    data read from 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4))
+        format = x:z
+        #datapoints = 55
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = a*x**b + d*x**l
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             d             l            
+   0 3.9440431889e+03  0.00e+00 2.05e+01  7.483665e-01  2.000000e+00 -4.989334e-01  1.000000e+00
+  13 1.4670379832e+01 -7.35e-01 2.05e-02  8.411136e-01  9.688950e-01 -6.219602e-01  6.032558e-02
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 14.6704
+rel. change during last iteration : -7.34594e-006
+
+degrees of freedom    (FIT_NDF)                        : 51
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.536334
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.287655
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.841114         +/- 63.04        (7495%)
+b               = 0.968895         +/- 21.02        (2170%)
+d               = -0.62196         +/- 52.13        (8381%)
+l               = 0.0603256        +/- 97.1         (1.61e+005%)
+
+correlation matrix of the fit parameters:
+                a      b      d      l      
+a               1.000 
+b              -1.000  1.000 
+d              -0.999  1.000  1.000 
+l               0.999 -0.998 -0.996  1.000 

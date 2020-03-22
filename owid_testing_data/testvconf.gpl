@@ -1,0 +1,4 @@
+plot 'tests-vs-confirmed-cases-covid-19_clean.csv' u (log10($3)):(log10($4)):((strcol(1) eq 'India')?'India':'') w labels point pt 7 ps 0.7 offset char 0,-1 font ',9' notitle, \
+"" u ((strcol(1) eq 'India')?log10($3):1/0):(log10($4)) w p pt 7 lc rgb "red" notitle, \
+g(x) t "quad" lc rgb "#aa8800", \
+f(x) t "lin" lc rgb "#002299"
